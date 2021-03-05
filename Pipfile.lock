@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "3ccb7044388db687e6b10f70ad0b17ea60cb0bb76c60cca3a8cfdb97e1b5f840"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "mylib": {
+            "hashes": [
+                "sha256:d919aa46471f2f9b7005fb6ebdea516afd9a83b472437a819a38914a839faa8f"
+            ],
+            "path": "./dist/mylib-0.0.1.tar.gz",
+            "version": "==0.0.1"
+        }
+    },
+    "develop": {}
+}
