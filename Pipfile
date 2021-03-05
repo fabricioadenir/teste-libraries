@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+setuptools = "*"
+mylib = {path = "./dist/mylib-0.0.1.tar.gz"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
